@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using System.Xml.XPath;
 
 int i1 = 5;
 int i2 = 6;
@@ -26,6 +27,17 @@ Console.WriteLine(quotient);
 d1 = 6;
 double quotient2 = i1 / d1;
 Console.WriteLine (quotient2);
+
+int a = 4;
+int b = 6;
+int c = 3;
+int d = 1;
+int result1 = a * b;
+int result2 = c + d;
+double finaly = result1 /result2;
+Console.WriteLine(result1);
+Console.WriteLine(result2);
+Console.WriteLine(finaly);
 
 
 
